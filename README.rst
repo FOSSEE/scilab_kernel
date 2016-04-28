@@ -11,10 +11,16 @@ To use it, run one of:
 
 .. code:: shell
 
-    ipython notebook
+    jupyter notebook 
     # In the notebook interface, select Scilab from the 'New' menu
-    ipython qtconsole --kernel scilab
-    ipython console --kernel scilab
+
+.. code:: shell
+
+    jupyter qtconsole --kernel scilab
+
+.. code:: shell
+
+    jupyter console --kernel scilab
 
 This is based on `MetaKernel <http://pypi.python.org/pypi/metakernel>`_,
 which means it features a standard set of magics.
